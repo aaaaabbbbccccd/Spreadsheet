@@ -147,4 +147,11 @@ public class FormulaSyntaxTests
         // This is an invalid formula, so it should throw an exception.
         Assert.ThrowsExactly<FormulaFormatException>(() => _ = new Formula("(1+1"));
     }
+
+    [TestMethod]
+    public void githubtestchange()
+    {
+        // This is an invalid formula, so it should throw an exception.
+        Assert.ThrowsExactly<FormulaFormatException>(() => _ = new Formula("gittest"));
+    }
 }
